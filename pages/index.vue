@@ -37,7 +37,7 @@
     </div>
     <!-- Stats Cards End -->
     <!-- Charts -->
-    <client-only>
+    <!-- <client-only>
       <div class="cards-row">
         <div class="cards-wrapper">
           <div class="cards-content">
@@ -56,7 +56,7 @@
           </div>
         </div>
       </div>
-    </client-only>
+    </client-only> -->
     <!-- Charts End -->
     <!-- Data Table Begin -->
     <div class="cards-row">

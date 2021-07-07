@@ -12,7 +12,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+    }
     ]
   },
 
@@ -33,6 +37,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    "@nuxtjs/axios",
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
